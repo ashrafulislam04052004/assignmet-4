@@ -35,8 +35,6 @@ if(currentTab==="all"){
    document.getElementById("tabCount").innerText =
     filtered.length + "of  " + jobs.length + "jobs";
 }
-
-
   if(filtered.length===0){
     container.innerHTML = `
       <div class="empty">
