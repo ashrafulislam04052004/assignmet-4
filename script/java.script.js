@@ -26,7 +26,7 @@ function render()
     ? jobs
     : jobs.filter( job=>job.status===currentTab);
     
-  document.getElementById("tabCount").innerText = filtered.length+"jobs";
+ document.getElementById("tabCount").innerText = filtered.length+"jobs";
 
   if(filtered.length===0){
     container.innerHTML = `
@@ -59,7 +59,7 @@ function render()
       <div class="description">${job.description}</div>
       <div class="buttons">
 
-        <button class="interview-btn" onclick="setStatus(${job.jd},'interview')">Interview</button>
+        <button class="interview-btn" onclick="setStatus(${job.id},'interview')">Interview</button>
      <button class="reject-btn" onclick="setStatus(${job.jd},'rejected')">Interview</button>
         </div>
        </div>`;
