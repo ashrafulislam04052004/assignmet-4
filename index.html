@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Application Tracker</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assignment.css">
+
+
+</head>
+<body>
+
+<div class="container">
+<h1>Job Application Tracker</h1>
+
+<div class="dashboard">
+  <div class="d-card">
+    <h3>Total</h3>
+    <p id="totalCount">8</p>
+  </div>
+  <div class="d-card">
+    <h3>Interview</h3>
+    <p id="interviewCount" style="color:var(--green)">0</p>
+  </div>
+  <div class="d-card">
+    <h3>Rejected</h3>
+    <p id="rejectedCount" style="color:var(--red)">0</p>
+  </div>
+</div>
+
+<div class="section-header">
+  <h2>Available Jobs</h2>
+  <h4 id="tabCount">8 Jobs</h4>
+</div>
+
+<div class="tabs">
+  <button id="all" class="active" onclick="switchTab('all')">All</button>
+  <button onclick="switchTab('interview')">Interview</button>
+  <button onclick="switchTab('rejected')">Rejected</button>
+</div>
+<div id="jobContainer" class="jobs"></div>
+</div>
+
+<script src="script/java.script.js"></script>
+
+
+</body>
+</html>
