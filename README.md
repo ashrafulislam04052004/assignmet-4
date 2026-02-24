@@ -1,9 +1,8 @@
 
-*To find a specific element, it is extracted by ID.
- *works fast 
+1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
- 2 
-class is added.
-The new element appears on the webpage.
-3 
+
+*getElementById
+getElementsByClassName
+
 Clicking on the button takes you to the parent element.
