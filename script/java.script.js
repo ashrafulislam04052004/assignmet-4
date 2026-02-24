@@ -28,7 +28,7 @@ function render()
     
 
 if(currentTab==="all"){
-  document.getElementById("tabCount").innerText =
+   document.getElementById("tabCount").innerText =
     jobs.length + "jobs"; 
 } else
 {
